@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-sprite",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoumm/tools.git"
+  },
+  "keywords": [
+    "node.js",
+    "crawler"
+  ],
+  "author": "Warren Xia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoumm/tools/issues"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^3.1.1",
+    "gulp.spritesmith": "^6.3.0"
+  }
+}
