@@ -14,7 +14,7 @@
 =====
 ###在模板页中加入生成background-size内容
 
-复制代码
+    复制代码
 {{/block}}
 {{#block "sprites"}}
 .cicon {
@@ -32,7 +32,7 @@
 {{/block}}
 
 
-var spriteData = gulp.src(base_url+'_images/icons/*.+(jpeg|jpg|png)').pipe(spritesmith({
+###var spriteData = gulp.src(base_url+'_images/icons/*.+(jpeg|jpg|png)').pipe(spritesmith({
     imgName: 'icons_sprite.png',
     cssName: 'icons_sprite.css',
     cssFormat: 'css',
